@@ -1,0 +1,11 @@
+timestamp_utc,region,az,instance_type,product,spot_price,price_timestamp_utc
+2026-08-26T21:31:26Z,us-east-2,us-east-2a,g5.xlarge,Linux/UNIX,0.399700,2026-08-26T15:00:00Z
+2026-08-26T21:31:26Z,us-east-2,us-east-2a,g5.xlarge,Windows,0.284600,2026-08-26T21:00:00Z
+2026-08-26T21:31:26Z,us-east-2,us-east-2b,g5.xlarge,Linux/UNIX,0.376500,2026-08-26T14:00:00Z
+2026-08-26T21:31:26Z,us-east-2,us-east-2b,g5.xlarge,Windows,0.284600,2026-08-26T19:00:00Z
+2026-08-26T21:31:26Z,us-east-2,us-east-2c,g5.xlarge,Linux/UNIX,0.354600,2026-08-26T16:00:00Z
+2026-08-26T21:31:26Z,us-east-2,us-east-2c,g5.xlarge,Windows,0.284600,2026-08-26T17:00:00Z
+2026-08-26T21:31:26Z,ap-southeast-2,ap-southeast-2a,g5.xlarge,Linux/UNIX,0.717100,2026-08-26T16:00:00Z
+2026-08-26T21:31:26Z,ap-southeast-2,ap-southeast-2a,g5.xlarge,Windows,0.455600,2026-08-26T19:00:00Z
+2026-08-26T21:31:26Z,ap-southeast-2,ap-southeast-2c,g5.xlarge,Linux/UNIX,0.818000,2026-08-26T17:00:00Z
+2026-08-26T21:31:26Z,ap-southeast-2,ap-southeast-2c,g5.xlarge,Windows,0.374600,2026-08-26T15:00:00Z
