@@ -12,9 +12,11 @@ Single-type score sets are scored low by EC2; use the trio set as the reference.
 
 The workflow assumes an IAM role through the account's GitHub OIDC provider.
 
-- Trust: `token.actions.githubusercontent.com` with `aud` = `sts.amazonaws.com` and `sub` matching `repo:ccam80/spot-watch:*`.
+- Trust: `token.actions.githubusercontent.com`, `aud` = `sts.amazonaws.com`, `sub` matching `repo:ccam80/spot-watch:*`.
+
 - Permissions: `ec2:GetSpotPlacementScores` and `ec2:DescribeSpotPriceHistory` on `*`.
-- Repository secret `AWS_SPOT_WATCH_ROLE`: the role's full ARN (`arn:aws:iam::<account>:role/<name>`).
+
+- Secret `AWS_SPOT_WATCH_ROLE`: the role's full ARN, `arn:aws:iam::<account>:role/<name>`.
 
 ## Local run
 
