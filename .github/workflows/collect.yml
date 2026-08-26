@@ -24,31 +24,36 @@ jobs:
         with:
           fetch-depth: 0
 
+      # Without the role the run is a green no-op; see README for setup.
       - name: Check the AWS role secret
         if: env.AWS_ROLE == ''
-        run: |
-          echo "::error::AWS_SPOT_WATCH_ROLE is not set; see README" >&2
-          exit 1
+        run: echo "::warning::AWS_SPOT_WATCH_ROLE is not set; nothing sampled"
 
       - name: Configure AWS credentials (OIDC)
+        if: env.AWS_ROLE != ''
         uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: ${{ env.AWS_ROLE }}
           aws-region: us-east-2
 
       - uses: actions/setup-python@v6
+        if: env.AWS_ROLE != ''
         with:
           python-version: "3.12"
 
-      - run: pip install --quiet boto3
+      - if: env.AWS_ROLE != ''
+        run: pip install --quiet boto3
 
       - name: Sample scores and prices
+        if: env.AWS_ROLE != ''
         run: python collect.py
 
       - name: Render the report
+        if: env.AWS_ROLE != ''
         run: python report.py
 
       - name: Keep raw responses for a week
+        if: env.AWS_ROLE != ''
         uses: actions/upload-artifact@v4
         with:
           name: raw-${{ github.run_id }}
@@ -56,6 +61,7 @@ jobs:
           retention-days: 7
 
       - name: Commit the sample
+        if: env.AWS_ROLE != ''
         run: |
           git config user.name "spot-watch bot"
           git config user.email "spot-watch@users.noreply.github.com"
