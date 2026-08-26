@@ -1,25 +1,16 @@
 # spot-watch
 
-Hourly log of EC2 Spot placement scores and spot prices for the GPU
-instance types in `config.json`, committed to `data/` with a rendered
-[REPORT.md](REPORT.md).
+Hourly log of EC2 Spot placement scores and spot prices for the instance types in `config.json`; see [REPORT.md](REPORT.md).
 
-- `collect.py` samples `GetSpotPlacementScores` (region level and best
-  single AZ) for each score set, plus `DescribeSpotPriceHistory`, and
-  appends to `data/scores.csv` / `data/prices.csv`.
-- `report.py` renders availability share, a 48-sample timeline, a mean
-  score by UTC hour, and `report/heatmap-*.svg`.
-- `.github/workflows/collect.yml` runs both hourly and commits the result.
+- `collect.py`: appends one sample to `data/scores.csv` and `data/prices.csv`.
+- `report.py`: renders `REPORT.md` and `report/heatmap-*.svg`.
+- `.github/workflows/collect.yml`: runs both hourly and commits the result.
 
-EC2 scores a request naming fewer than three instance types low on
-purpose, so the single-type set is a relative signal; the trio set is the
-calibrated one.
+Single-type score sets are scored low by EC2; use the trio set as the reference.
 
-## AWS setup (one-off)
+## AWS setup
 
-The workflow assumes an IAM role through GitHub OIDC. Create the role
-once from CloudShell in the fleet account, then store its ARN as the
-repository secret `AWS_SPOT_WATCH_ROLE`.
+Create the OIDC role once in CloudShell, then store its ARN as the repository secret `AWS_SPOT_WATCH_ROLE`.
 
 ```bash
 ACCOUNT=$(aws sts get-caller-identity --query Account --output text)
@@ -56,9 +47,6 @@ aws iam get-role --role-name spot-watch --query Role.Arn --output text
 gh secret set AWS_SPOT_WATCH_ROLE --repo ccam80/spot-watch --body "<role arn>"
 gh workflow run collect.yml --repo ccam80/spot-watch
 ```
-
-The OIDC provider `token.actions.githubusercontent.com` already exists in
-the account (the cubie AMI bake uses it).
 
 ## Local run
 
