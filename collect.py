@@ -119,6 +119,8 @@ def main():
         append_rows(DATA / "prices.csv", PRICE_COLUMNS, price_rows)
     print(f"{len(price_rows)} price rows at {stamp}")
 
+    for response in list(score_raw.values()) + list(price_raw.values()):
+        response.pop("ResponseMetadata", None)
     RAW.mkdir(exist_ok=True)
     (RAW / f"{stamp.replace(':', '')}.json").write_text(
         json.dumps({"scores": score_raw, "prices": price_raw},
