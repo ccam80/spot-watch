@@ -10,43 +10,11 @@ Single-type score sets are scored low by EC2; use the trio set as the reference.
 
 ## AWS setup
 
-Create the OIDC role once in CloudShell, then store its ARN as the repository secret `AWS_SPOT_WATCH_ROLE`.
+The workflow assumes an IAM role through the account's GitHub OIDC provider.
 
-```bash
-ACCOUNT=$(aws sts get-caller-identity --query Account --output text)
-cat > trust.json <<EOF
-{
-  "Version": "2012-10-17",
-  "Statement": [{
-    "Effect": "Allow",
-    "Principal": {"Federated": "arn:aws:iam::${ACCOUNT}:oidc-provider/token.actions.githubusercontent.com"},
-    "Action": "sts:AssumeRoleWithWebIdentity",
-    "Condition": {
-      "StringEquals": {"token.actions.githubusercontent.com:aud": "sts.amazonaws.com"},
-      "StringLike": {"token.actions.githubusercontent.com:sub": "repo:ccam80/spot-watch:*"}
-    }
-  }]
-}
-EOF
-cat > policy.json <<EOF
-{
-  "Version": "2012-10-17",
-  "Statement": [{
-    "Effect": "Allow",
-    "Action": ["ec2:GetSpotPlacementScores", "ec2:DescribeSpotPriceHistory"],
-    "Resource": "*"
-  }]
-}
-EOF
-aws iam create-role --role-name spot-watch --assume-role-policy-document file://trust.json
-aws iam put-role-policy --role-name spot-watch --policy-name spot-watch-read --policy-document file://policy.json
-aws iam get-role --role-name spot-watch --query Role.Arn --output text
-```
-
-```bash
-gh secret set AWS_SPOT_WATCH_ROLE --repo ccam80/spot-watch --body "<role arn>"
-gh workflow run collect.yml --repo ccam80/spot-watch
-```
+- Trust: `token.actions.githubusercontent.com` with `aud` = `sts.amazonaws.com` and `sub` matching `repo:ccam80/spot-watch:*`.
+- Permissions: `ec2:GetSpotPlacementScores` and `ec2:DescribeSpotPriceHistory` on `*`.
+- Repository secret `AWS_SPOT_WATCH_ROLE`: the role's full ARN (`arn:aws:iam::<account>:role/<name>`).
 
 ## Local run
 
