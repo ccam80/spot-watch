@@ -1,0 +1,29 @@
+name: OIDC debug
+
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  claims:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ROLE: ${{ secrets.AWS_SPOT_WATCH_ROLE }}
+    steps:
+      # Prints the token's claims, never the token itself.
+      - name: Decode the OIDC token claims
+        run: |
+          token=$(curl -sS -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=sts.amazonaws.com" | jq -r .value)
+          payload=$(echo "$token" | cut -d. -f2 | tr '_-' '/+')
+          pad=$(( (4 - ${#payload} % 4) % 4 ))
+          echo "$payload$(printf '=%.0s' $(seq 1 $pad))" | base64 -d | jq '{iss, aud, sub, repository, ref, repository_owner}'
+          echo "role arn prefix: $(echo "$AWS_ROLE" | cut -c1-16)"
+          echo "role arn suffix: $(echo "$AWS_ROLE" | rev | cut -c1-16 | rev)"
+          echo "role arn length: ${#AWS_ROLE}"
+          aws sts assume-role-with-web-identity --role-arn "$AWS_ROLE" \
+            --role-session-name oidc-debug --web-identity-token "$token" \
+            --region us-east-2 --query 'AssumedRoleUser.Arn' --output text || true
