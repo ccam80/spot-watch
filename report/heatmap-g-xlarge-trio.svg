@@ -247,7 +247,7 @@
 <text x="598" y="133">2</text>
 <rect x="614" y="118" width="21" height="21" fill="rgb(93,209,93)"/>
 <text x="620" y="133">6</text>
-<rect x="636" y="118" width="21" height="21" fill="rgb(209,151,209)"/>
+<rect x="636" y="118" width="21" height="21" fill="rgb(212,149,212)"/>
 <text x="642" y="133">2</text>
 <text x="4" y="155">ap-southeast-3</text>
 <rect x="130" y="140" width="21" height="21" fill="rgb(187,162,187)"/>
@@ -292,7 +292,7 @@
 <text x="598" y="155">3</text>
 <rect x="614" y="140" width="21" height="21" fill="rgb(178,166,178)"/>
 <text x="620" y="155">3</text>
-<rect x="636" y="140" width="21" height="21" fill="rgb(188,161,188)"/>
+<rect x="636" y="140" width="21" height="21" fill="rgb(187,162,187)"/>
 <text x="642" y="155">3</text>
 <text x="4" y="177">us-east-1</text>
 <rect x="130" y="162" width="21" height="21" fill="rgb(144,183,144)"/>
@@ -337,7 +337,7 @@
 <text x="598" y="177">6</text>
 <rect x="614" y="162" width="21" height="21" fill="rgb(85,213,85)"/>
 <text x="620" y="177">7</text>
-<rect x="636" y="162" width="21" height="21" fill="rgb(107,202,107)"/>
+<rect x="636" y="162" width="21" height="21" fill="rgb(93,209,93)"/>
 <text x="642" y="177">6</text>
 <text x="4" y="199">us-east-2</text>
 <rect x="130" y="184" width="21" height="21" fill="rgb(212,149,212)"/>
@@ -382,7 +382,7 @@
 <text x="598" y="199">6</text>
 <rect x="614" y="184" width="21" height="21" fill="rgb(144,183,144)"/>
 <text x="620" y="199">4</text>
-<rect x="636" y="184" width="21" height="21" fill="rgb(137,187,137)"/>
+<rect x="636" y="184" width="21" height="21" fill="rgb(119,196,119)"/>
 <text x="642" y="199">5</text>
 <text x="4" y="221">us-west-2</text>
 <rect x="130" y="206" width="21" height="21" fill="rgb(144,183,144)"/>
@@ -427,6 +427,6 @@
 <text x="598" y="221">5</text>
 <rect x="614" y="206" width="21" height="21" fill="rgb(187,162,187)"/>
 <text x="620" y="221">3</text>
-<rect x="636" y="206" width="21" height="21" fill="rgb(137,187,137)"/>
+<rect x="636" y="206" width="21" height="21" fill="rgb(127,192,127)"/>
 <text x="642" y="221">5</text>
 </svg>
