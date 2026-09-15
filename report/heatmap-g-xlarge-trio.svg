@@ -212,7 +212,7 @@
 <text x="576" y="111">3</text>
 <rect x="592" y="96" width="21" height="21" fill="rgb(144,183,144)"/>
 <text x="598" y="111">4</text>
-<rect x="614" y="96" width="21" height="21" fill="rgb(112,199,112)"/>
+<rect x="614" y="96" width="21" height="21" fill="rgb(102,204,102)"/>
 <text x="620" y="111">6</text>
 <rect x="636" y="96" width="21" height="21" fill="rgb(159,176,159)"/>
 <text x="642" y="111">4</text>
@@ -260,7 +260,7 @@
 <text x="576" y="133">1</text>
 <rect x="592" y="118" width="21" height="21" fill="rgb(204,153,204)"/>
 <text x="598" y="133">2</text>
-<rect x="614" y="118" width="21" height="21" fill="rgb(153,179,153)"/>
+<rect x="614" y="118" width="21" height="21" fill="rgb(159,176,159)"/>
 <text x="620" y="133">4</text>
 <rect x="636" y="118" width="21" height="21" fill="rgb(213,149,213)"/>
 <text x="642" y="133">2</text>
@@ -356,7 +356,7 @@
 <text x="576" y="177">4</text>
 <rect x="592" y="162" width="21" height="21" fill="rgb(107,202,107)"/>
 <text x="598" y="177">6</text>
-<rect x="614" y="162" width="21" height="21" fill="rgb(69,221,69)"/>
+<rect x="614" y="162" width="21" height="21" fill="rgb(86,212,86)"/>
 <text x="620" y="177">7</text>
 <rect x="636" y="162" width="21" height="21" fill="rgb(86,212,86)"/>
 <text x="642" y="177">7</text>
@@ -404,8 +404,8 @@
 <text x="576" y="199">6</text>
 <rect x="592" y="184" width="21" height="21" fill="rgb(87,212,87)"/>
 <text x="598" y="199">7</text>
-<rect x="614" y="184" width="21" height="21" fill="rgb(127,192,127)"/>
-<text x="620" y="199">5</text>
+<rect x="614" y="184" width="21" height="21" fill="rgb(140,185,140)"/>
+<text x="620" y="199">4</text>
 <rect x="636" y="184" width="21" height="21" fill="rgb(95,208,95)"/>
 <text x="642" y="199">6</text>
 <text x="4" y="221">us-west-2</text>
@@ -452,8 +452,8 @@
 <text x="576" y="221">5</text>
 <rect x="592" y="206" width="21" height="21" fill="rgb(133,189,133)"/>
 <text x="598" y="221">5</text>
-<rect x="614" y="206" width="21" height="21" fill="rgb(134,188,134)"/>
-<text x="620" y="221">5</text>
+<rect x="614" y="206" width="21" height="21" fill="rgb(140,185,140)"/>
+<text x="620" y="221">4</text>
 <rect x="636" y="206" width="21" height="21" fill="rgb(117,197,117)"/>
 <text x="642" y="221">5</text>
 </svg>
