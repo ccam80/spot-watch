@@ -44,7 +44,7 @@
 <text x="312" y="45">1</text>
 <rect x="328" y="30" width="21" height="21" fill="rgb(222,144,222)"/>
 <text x="334" y="45">1</text>
-<rect x="350" y="30" width="21" height="21" fill="rgb(204,153,204)"/>
+<rect x="350" y="30" width="21" height="21" fill="rgb(195,158,195)"/>
 <text x="356" y="45">2</text>
 <rect x="372" y="30" width="21" height="21" fill="rgb(195,158,195)"/>
 <text x="378" y="45">2</text>
@@ -188,7 +188,7 @@
 <text x="312" y="111">2</text>
 <rect x="328" y="96" width="21" height="21" fill="rgb(214,148,214)"/>
 <text x="334" y="111">2</text>
-<rect x="350" y="96" width="21" height="21" fill="rgb(204,153,204)"/>
+<rect x="350" y="96" width="21" height="21" fill="rgb(212,149,212)"/>
 <text x="356" y="111">2</text>
 <rect x="372" y="96" width="21" height="21" fill="rgb(208,151,208)"/>
 <text x="378" y="111">2</text>
@@ -332,7 +332,7 @@
 <text x="312" y="177">2</text>
 <rect x="328" y="162" width="21" height="21" fill="rgb(193,159,193)"/>
 <text x="334" y="177">2</text>
-<rect x="350" y="162" width="21" height="21" fill="rgb(204,153,204)"/>
+<rect x="350" y="162" width="21" height="21" fill="rgb(212,149,212)"/>
 <text x="356" y="177">2</text>
 <rect x="372" y="162" width="21" height="21" fill="rgb(195,158,195)"/>
 <text x="378" y="177">2</text>
@@ -380,7 +380,7 @@
 <text x="312" y="199">2</text>
 <rect x="328" y="184" width="21" height="21" fill="rgb(200,155,200)"/>
 <text x="334" y="199">2</text>
-<rect x="350" y="184" width="21" height="21" fill="rgb(204,153,204)"/>
+<rect x="350" y="184" width="21" height="21" fill="rgb(195,158,195)"/>
 <text x="356" y="199">2</text>
 <rect x="372" y="184" width="21" height="21" fill="rgb(187,162,187)"/>
 <text x="378" y="199">3</text>
@@ -428,7 +428,7 @@
 <text x="312" y="221">2</text>
 <rect x="328" y="206" width="21" height="21" fill="rgb(218,146,218)"/>
 <text x="334" y="221">1</text>
-<rect x="350" y="206" width="21" height="21" fill="rgb(204,153,204)"/>
+<rect x="350" y="206" width="21" height="21" fill="rgb(195,158,195)"/>
 <text x="356" y="221">2</text>
 <rect x="372" y="206" width="21" height="21" fill="rgb(199,156,199)"/>
 <text x="378" y="221">2</text>
