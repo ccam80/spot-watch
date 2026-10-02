@@ -27,7 +27,7 @@
 <text x="4" y="45">ap-east-1</text>
 <rect x="130" y="30" width="21" height="21" fill="rgb(199,156,199)"/>
 <text x="136" y="45">2</text>
-<rect x="152" y="30" width="21" height="21" fill="rgb(134,188,134)"/>
+<rect x="152" y="30" width="21" height="21" fill="rgb(127,192,127)"/>
 <text x="158" y="45">5</text>
 <rect x="174" y="30" width="21" height="21" fill="rgb(63,224,63)"/>
 <text x="180" y="45">8</text>
@@ -125,7 +125,7 @@
 <text x="4" y="89">ap-northeast-2</text>
 <rect x="130" y="74" width="21" height="21" fill="rgb(178,166,178)"/>
 <text x="136" y="89">3</text>
-<rect x="152" y="74" width="21" height="21" fill="rgb(76,217,76)"/>
+<rect x="152" y="74" width="21" height="21" fill="rgb(73,219,73)"/>
 <text x="158" y="89">7</text>
 <rect x="174" y="74" width="21" height="21" fill="rgb(25,243,25)"/>
 <text x="180" y="89">9</text>
@@ -174,7 +174,7 @@
 <text x="4" y="111">ap-south-1</text>
 <rect x="130" y="96" width="21" height="21" fill="rgb(199,156,199)"/>
 <text x="136" y="111">2</text>
-<rect x="152" y="96" width="21" height="21" fill="rgb(209,151,209)"/>
+<rect x="152" y="96" width="21" height="21" fill="rgb(208,151,208)"/>
 <text x="158" y="111">2</text>
 <rect x="174" y="96" width="21" height="21" fill="rgb(210,150,210)"/>
 <text x="180" y="111">2</text>
@@ -272,7 +272,7 @@
 <text x="4" y="155">ap-southeast-3</text>
 <rect x="130" y="140" width="21" height="21" fill="rgb(180,165,180)"/>
 <text x="136" y="155">3</text>
-<rect x="152" y="140" width="21" height="21" fill="rgb(183,164,183)"/>
+<rect x="152" y="140" width="21" height="21" fill="rgb(186,162,186)"/>
 <text x="158" y="155">3</text>
 <rect x="174" y="140" width="21" height="21" fill="rgb(229,141,229)"/>
 <text x="180" y="155">1</text>
@@ -321,7 +321,7 @@
 <text x="4" y="177">us-east-1</text>
 <rect x="130" y="162" width="21" height="21" fill="rgb(212,149,212)"/>
 <text x="136" y="177">2</text>
-<rect x="152" y="162" width="21" height="21" fill="rgb(187,162,187)"/>
+<rect x="152" y="162" width="21" height="21" fill="rgb(176,167,176)"/>
 <text x="158" y="177">3</text>
 <rect x="174" y="162" width="21" height="21" fill="rgb(216,147,216)"/>
 <text x="180" y="177">2</text>
@@ -370,7 +370,7 @@
 <text x="4" y="199">us-east-2</text>
 <rect x="130" y="184" width="21" height="21" fill="rgb(208,151,208)"/>
 <text x="136" y="199">2</text>
-<rect x="152" y="184" width="21" height="21" fill="rgb(130,190,130)"/>
+<rect x="152" y="184" width="21" height="21" fill="rgb(124,193,124)"/>
 <text x="158" y="199">5</text>
 <rect x="174" y="184" width="21" height="21" fill="rgb(127,192,127)"/>
 <text x="180" y="199">5</text>
@@ -419,7 +419,7 @@
 <text x="4" y="221">us-west-2</text>
 <rect x="130" y="206" width="21" height="21" fill="rgb(206,152,206)"/>
 <text x="136" y="221">2</text>
-<rect x="152" y="206" width="21" height="21" fill="rgb(192,159,192)"/>
+<rect x="152" y="206" width="21" height="21" fill="rgb(194,158,194)"/>
 <text x="158" y="221">2</text>
 <rect x="174" y="206" width="21" height="21" fill="rgb(172,169,172)"/>
 <text x="180" y="221">3</text>
