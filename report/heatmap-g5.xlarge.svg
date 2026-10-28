@@ -61,7 +61,7 @@
 <text x="488" y="45">4</text>
 <rect x="504" y="30" width="21" height="21" fill="rgb(72,219,72)"/>
 <text x="510" y="45">7</text>
-<rect x="526" y="30" width="21" height="21" fill="rgb(124,193,124)"/>
+<rect x="526" y="30" width="21" height="21" fill="rgb(120,195,120)"/>
 <text x="532" y="45">5</text>
 <rect x="548" y="30" width="21" height="21" fill="rgb(127,192,127)"/>
 <text x="554" y="45">5</text>
@@ -159,7 +159,7 @@
 <text x="488" y="89">6</text>
 <rect x="504" y="74" width="21" height="21" fill="rgb(58,226,58)"/>
 <text x="510" y="89">8</text>
-<rect x="526" y="74" width="21" height="21" fill="rgb(96,207,96)"/>
+<rect x="526" y="74" width="21" height="21" fill="rgb(93,209,93)"/>
 <text x="532" y="89">6</text>
 <rect x="548" y="74" width="21" height="21" fill="rgb(89,211,89)"/>
 <text x="554" y="89">6</text>
@@ -208,7 +208,7 @@
 <text x="488" y="111">2</text>
 <rect x="504" y="96" width="21" height="21" fill="rgb(213,149,213)"/>
 <text x="510" y="111">2</text>
-<rect x="526" y="96" width="21" height="21" fill="rgb(204,153,204)"/>
+<rect x="526" y="96" width="21" height="21" fill="rgb(205,153,205)"/>
 <text x="532" y="111">2</text>
 <rect x="548" y="96" width="21" height="21" fill="rgb(202,154,202)"/>
 <text x="554" y="111">2</text>
@@ -355,7 +355,7 @@
 <text x="488" y="177">2</text>
 <rect x="504" y="162" width="21" height="21" fill="rgb(213,149,213)"/>
 <text x="510" y="177">2</text>
-<rect x="526" y="162" width="21" height="21" fill="rgb(182,164,182)"/>
+<rect x="526" y="162" width="21" height="21" fill="rgb(184,163,184)"/>
 <text x="532" y="177">3</text>
 <rect x="548" y="162" width="21" height="21" fill="rgb(208,151,208)"/>
 <text x="554" y="177">2</text>
@@ -404,7 +404,7 @@
 <text x="488" y="199">2</text>
 <rect x="504" y="184" width="21" height="21" fill="rgb(151,180,151)"/>
 <text x="510" y="199">4</text>
-<rect x="526" y="184" width="21" height="21" fill="rgb(175,168,175)"/>
+<rect x="526" y="184" width="21" height="21" fill="rgb(177,167,177)"/>
 <text x="532" y="199">3</text>
 <rect x="548" y="184" width="21" height="21" fill="rgb(170,170,170)"/>
 <text x="554" y="199">3</text>
