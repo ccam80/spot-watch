@@ -1,34 +1,34 @@
 # Spot placement score log
 
-Generated 2026-11-22 03:03 UTC. Scores are 1–10; a region counts as available at ≥ 5. The single-type set is scored low by design (EC2 wants three or more instance types); read it relative to itself over time and use the trio set as the calibrated reference.
+Generated 2026-11-22 11:09 UTC. Scores are 1–10; a region counts as available at ≥ 5. The single-type set is scored low by design (EC2 wants three or more instance types); read it relative to itself over time and use the trio set as the calibrated reference.
 
 ## g5.xlarge (g5.xlarge)
 
 | region | samples | hours ≥ 5 | mean score | latest |
 |---|---|---|---|---|
-| ap-east-1 | 560 | 47% | 5.1 | 1 (11-22 03:03Z) |
-| ap-northeast-1 | 560 | 18% | 2.8 | 1 (11-22 03:03Z) |
-| ap-northeast-2 | 560 | 69% | 7.0 | 1 (11-22 03:03Z) |
-| ap-south-1 | 560 | 3% | 1.7 | 1 (11-22 03:03Z) |
-| ap-southeast-2 | 560 | 1% | 1.0 | 1 (11-22 03:03Z) |
-| ap-southeast-3 | 560 | 23% | 3.0 | 1 (11-22 03:03Z) |
-| us-east-1 | 560 | 12% | 2.8 | 4 (11-22 03:03Z) |
-| us-east-2 | 560 | 30% | 3.6 | 1 (11-22 03:03Z) |
-| us-west-2 | 560 | 9% | 2.1 | 3 (11-22 03:03Z) |
+| ap-east-1 | 561 | 47% | 5.1 | 1 (11-22 11:09Z) |
+| ap-northeast-1 | 561 | 18% | 2.8 | 2 (11-22 11:09Z) |
+| ap-northeast-2 | 561 | 68% | 7.0 | 1 (11-22 11:09Z) |
+| ap-south-1 | 561 | 3% | 1.7 | 2 (11-22 11:09Z) |
+| ap-southeast-2 | 561 | 1% | 1.0 | 1 (11-22 11:09Z) |
+| ap-southeast-3 | 561 | 23% | 3.0 | 1 (11-22 11:09Z) |
+| us-east-1 | 561 | 13% | 2.8 | 6 (11-22 11:09Z) |
+| us-east-2 | 561 | 30% | 3.6 | 1 (11-22 11:09Z) |
+| us-west-2 | 561 | 9% | 2.1 | 1 (11-22 11:09Z) |
 
 ### Last 48 samples
 
 ```
 region           oldest → newest (48 h, one char per sample)
-ap-east-1        998199191219111111111991996113911911111111111111
-ap-northeast-1   199112111115111211299959999911912112212112999991
-ap-northeast-2   999999999919111111111999999997991716919991999911
-ap-south-1       119111122111111111111111911111111111111111111911
+ap-east-1        981991912191111111119919961139119111111111111111
+ap-northeast-1   991121111151112112999599999119121122121129999912
+ap-northeast-2   999999999191111111119999999979917169199919999111
+ap-south-1       191111221111111111111119111111111111111111119112
 ap-southeast-2   111111111111111111111111111111111111111111111111
-ap-southeast-3   131111111113111111111112113111311111111111111111
-us-east-1        223292933224232333442233237374654676546565667544
-us-east-2        199991111111111111111199199199911199181111111111
-us-west-2        112111112122211121221112191111211212121121115213
+ap-southeast-3   311111111131111111111121131113111111111111111111
+us-east-1        232929332242323334422332373746546765465656675446
+us-east-2        999911111111111111111991991999111991811111111111
+us-west-2        121111121222111212211121911112112121211211152131
 ```
 
 ### Mean score by UTC hour
@@ -42,7 +42,7 @@ us-west-2        112111112122211121221112191111211212121121115213
 | ap-southeast-2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | ap-southeast-3 | 3 | 2 | 1 | 1 | 2 | 2 | 1 | 1 | 2 | 2 | 2 | 3 | 4 | 4 | 4 | 5 | 4 | 4 | 3 | 4 | 5 | 3 | 4 | 4 |
 | us-east-1 | 3 | 3 | 2 | 4 | 3 | 3 | 4 | 3 | 3 | 2 | 3 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 3 | 2 | 2 | 3 | 3 | 3 |
-| us-east-2 | 3 | 4 | 2 | 3 | 3 | 5 | 5 | 7 | 4 | 5 | 6 | 4 | 5 | 3 | 2 | 3 | 3 | 3 | 3 | 4 | 3 | 3 | 3 | 3 |
+| us-east-2 | 3 | 4 | 2 | 3 | 3 | 5 | 5 | 7 | 4 | 5 | 6 | 3 | 5 | 3 | 2 | 3 | 3 | 3 | 3 | 4 | 3 | 3 | 3 | 3 |
 | us-west-2 | 3 | 2 | 2 | 2 | 2 | 2 | 3 | 2 | 3 | 2 | 2 | 2 | 2 | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 2 | 2 | 2 | 2 |
 
 ![g5.xlarge heatmap](report/heatmap-g5.xlarge.svg)
@@ -54,55 +54,55 @@ us-west-2        112111112122211121221112191111211212121121115213
 | ap-east-1 ape1-az1 | 175 | 5% | 1.5 | 1 (11-22 03:03Z) |
 | ap-east-1 ape1-az2 | 399 | 66% | 6.6 | 9 (11-17 22:13Z) |
 | ap-northeast-1 apne1-az1 | 135 | 11% | 2.0 | 1 (11-21 01:25Z) |
-| ap-northeast-1 apne1-az4 | 264 | 28% | 3.6 | 1 (11-22 03:03Z) |
-| ap-northeast-2 apne2-az1 | 468 | 63% | 6.6 | 1 (11-22 03:03Z) |
+| ap-northeast-1 apne1-az4 | 265 | 28% | 3.6 | 2 (11-22 11:09Z) |
+| ap-northeast-2 apne2-az1 | 469 | 63% | 6.6 | 1 (11-22 11:09Z) |
 | ap-northeast-2 apne2-az3 | 512 | 69% | 7.0 | 9 (11-21 17:22Z) |
 | ap-northeast-2 apne2-az4 | 541 | 71% | 7.2 | 9 (11-21 17:22Z) |
-| ap-south-1 aps1-az1 | 166 | 2% | 1.4 | 1 (11-22 03:03Z) |
+| ap-south-1 aps1-az1 | 167 | 2% | 1.4 | 1 (11-22 11:09Z) |
 | ap-south-1 aps1-az3 | 163 | 7% | 2.3 | 8 (11-21 17:22Z) |
 | ap-southeast-2 apse2-az1 | 114 | 3% | 1.2 | 1 (11-20 11:24Z) |
 | ap-southeast-2 apse2-az2 | 82 | 0% | 1.0 | 1 (11-21 01:25Z) |
-| ap-southeast-3 apse3-az1 | 101 | 0% | 1.0 | 1 (11-22 03:03Z) |
+| ap-southeast-3 apse3-az1 | 102 | 0% | 1.0 | 1 (11-22 11:09Z) |
 | ap-southeast-3 apse3-az3 | 334 | 36% | 4.2 | 1 (11-21 01:25Z) |
 | us-east-1 use1-az1 | 123 | 0% | 1.0 | 1 (11-21 09:39Z) |
-| us-east-1 use1-az2 | 146 | 3% | 1.4 | 1 (11-22 03:03Z) |
-| us-east-1 use1-az4 | 189 | 20% | 2.8 | 2 (11-21 23:05Z) |
+| us-east-1 use1-az2 | 147 | 3% | 1.4 | 1 (11-22 11:09Z) |
+| us-east-1 use1-az4 | 190 | 20% | 2.8 | 2 (11-22 11:09Z) |
 | us-east-1 use1-az5 | 177 | 24% | 3.0 | 1 (11-20 03:02Z) |
-| us-east-1 use1-az6 | 146 | 21% | 2.9 | 2 (11-22 03:03Z) |
+| us-east-1 use1-az6 | 147 | 21% | 2.9 | 2 (11-22 11:09Z) |
 | us-east-2 use2-az1 | 245 | 42% | 4.6 | 1 (11-22 03:03Z) |
-| us-east-2 use2-az2 | 285 | 51% | 5.3 | 1 (11-22 03:03Z) |
+| us-east-2 use2-az2 | 286 | 51% | 5.3 | 1 (11-22 11:09Z) |
 | us-east-2 use2-az3 | 310 | 48% | 5.1 | 1 (11-20 03:02Z) |
-| us-west-2 usw2-az1 | 178 | 21% | 3.0 | 4 (11-21 09:39Z) |
+| us-west-2 usw2-az1 | 179 | 21% | 2.9 | 1 (11-22 11:09Z) |
 | us-west-2 usw2-az2 | 133 | 16% | 2.4 | 1 (11-21 09:39Z) |
-| us-west-2 usw2-az3 | 214 | 16% | 2.6 | 1 (11-22 03:03Z) |
+| us-west-2 usw2-az3 | 215 | 16% | 2.6 | 1 (11-22 11:09Z) |
 
 ## g-xlarge-trio (g5.xlarge, g4dn.xlarge, g6.xlarge)
 
 | region | samples | hours ≥ 5 | mean score | latest |
 |---|---|---|---|---|
-| ap-east-1 | 560 | 73% | 7.4 | 9 (11-22 03:03Z) |
-| ap-northeast-1 | 560 | 72% | 7.0 | 9 (11-22 03:03Z) |
-| ap-northeast-2 | 560 | 100% | 9.0 | 9 (11-22 03:03Z) |
-| ap-south-1 | 560 | 58% | 5.9 | 1 (11-22 03:03Z) |
-| ap-southeast-2 | 560 | 28% | 3.6 | 1 (11-22 03:03Z) |
-| ap-southeast-3 | 560 | 23% | 3.0 | 1 (11-22 03:03Z) |
-| us-east-1 | 560 | 73% | 6.6 | 8 (11-22 03:03Z) |
-| us-east-2 | 560 | 68% | 6.7 | 1 (11-22 03:03Z) |
-| us-west-2 | 560 | 51% | 5.6 | 6 (11-22 03:03Z) |
+| ap-east-1 | 561 | 73% | 7.4 | 9 (11-22 11:09Z) |
+| ap-northeast-1 | 561 | 73% | 7.0 | 9 (11-22 11:09Z) |
+| ap-northeast-2 | 561 | 100% | 9.0 | 9 (11-22 11:09Z) |
+| ap-south-1 | 561 | 58% | 5.9 | 2 (11-22 11:09Z) |
+| ap-southeast-2 | 561 | 28% | 3.7 | 9 (11-22 11:09Z) |
+| ap-southeast-3 | 561 | 23% | 3.0 | 1 (11-22 11:09Z) |
+| us-east-1 | 561 | 73% | 6.6 | 9 (11-22 11:09Z) |
+| us-east-2 | 561 | 68% | 6.7 | 9 (11-22 11:09Z) |
+| us-west-2 | 561 | 51% | 5.6 | 9 (11-22 11:09Z) |
 
 ### Last 48 samples
 
 ```
 region           oldest → newest (48 h, one char per sample)
 ap-east-1        999999999999999999999999999999999999999999999999
-ap-northeast-1   999939229929928942999999999922929919939919999999
+ap-northeast-1   999392299299289429999999999229299199399199999999
 ap-northeast-2   999999999999999999999999999999999999999999999999
-ap-south-1       119913922911111191111119911111111111111111111911
-ap-southeast-2   199119119119919911913299999111819119119911999991
-ap-southeast-3   131111111113111111111112113111311111111111111111
-us-east-1        999995996699689669789999979999988898888888999998
-us-east-2        999991199199199999999999999199995899299199329111
-us-west-2        999994943349334341942399399911599545353244449956
+ap-south-1       199139229111111911111199111111111111111111119112
+ap-southeast-2   991191191199199119132999991118191191199119999919
+ap-southeast-3   311111111131111111111121131113111111111111111111
+us-east-1        999959966996896697899999799999888988888889999989
+us-east-2        999911991991999999999999991999958992991993291119
+us-west-2        999949433493343419423993999115995453532444499569
 ```
 
 ### Mean score by UTC hour
@@ -125,29 +125,29 @@ us-west-2        999994943349334341942399399911599545353244449956
 
 | region | samples | hours ≥ 5 | mean score | latest |
 |---|---|---|---|---|
-| ap-east-1 ape1-az1 | 363 | 85% | 8.1 | 9 (11-22 03:03Z) |
+| ap-east-1 ape1-az1 | 364 | 85% | 8.1 | 9 (11-22 11:09Z) |
 | ap-east-1 ape1-az2 | 331 | 88% | 8.3 | 9 (11-22 03:03Z) |
-| ap-east-1 ape1-az3 | 360 | 88% | 8.3 | 9 (11-22 03:03Z) |
+| ap-east-1 ape1-az3 | 361 | 88% | 8.3 | 9 (11-22 11:09Z) |
 | ap-northeast-1 apne1-az1 | 226 | 95% | 8.7 | 9 (11-22 03:03Z) |
 | ap-northeast-1 apne1-az2 | 213 | 87% | 8.2 | 9 (11-22 03:03Z) |
-| ap-northeast-1 apne1-az4 | 289 | 99% | 8.9 | 9 (11-22 03:03Z) |
+| ap-northeast-1 apne1-az4 | 290 | 99% | 8.9 | 9 (11-22 11:09Z) |
 | ap-northeast-2 apne2-az1 | 454 | 100% | 9.0 | 9 (11-22 03:03Z) |
 | ap-northeast-2 apne2-az2 | 128 | 88% | 8.2 | 9 (11-22 03:03Z) |
-| ap-northeast-2 apne2-az3 | 471 | 100% | 9.0 | 9 (11-22 03:03Z) |
-| ap-northeast-2 apne2-az4 | 369 | 87% | 8.2 | 9 (11-22 03:03Z) |
+| ap-northeast-2 apne2-az3 | 472 | 100% | 9.0 | 9 (11-22 11:09Z) |
+| ap-northeast-2 apne2-az4 | 370 | 87% | 8.2 | 9 (11-22 11:09Z) |
 | ap-south-1 aps1-az1 | 180 | 88% | 8.3 | 9 (11-21 17:22Z) |
 | ap-south-1 aps1-az2 | 188 | 80% | 7.8 | 9 (11-21 17:22Z) |
 | ap-south-1 aps1-az3 | 201 | 90% | 8.4 | 9 (11-14 21:23Z) |
 | ap-southeast-2 apse2-az1 | 79 | 87% | 8.2 | 9 (11-21 23:05Z) |
 | ap-southeast-2 apse2-az2 | 3 | 67% | 7.0 | 9 (10-31 19:10Z) |
-| ap-southeast-2 apse2-az3 | 92 | 85% | 8.0 | 9 (11-21 17:22Z) |
+| ap-southeast-2 apse2-az3 | 93 | 85% | 8.1 | 9 (11-22 11:09Z) |
 | ap-southeast-3 apse3-az3 | 74 | 39% | 5.2 | 9 (10-31 22:12Z) |
 | us-east-1 use1-az1 | 30 | 53% | 5.6 | 9 (11-14 16:59Z) |
-| us-east-1 use1-az2 | 119 | 99% | 8.9 | 9 (11-21 17:22Z) |
-| us-east-1 use1-az4 | 160 | 91% | 8.4 | 9 (11-21 09:39Z) |
+| us-east-1 use1-az2 | 120 | 99% | 8.9 | 9 (11-22 11:09Z) |
+| us-east-1 use1-az4 | 161 | 91% | 8.4 | 9 (11-22 11:09Z) |
 | us-east-1 use1-az5 | 115 | 98% | 8.9 | 9 (11-21 23:05Z) |
-| us-east-1 use1-az6 | 142 | 93% | 8.5 | 9 (11-21 23:05Z) |
-| us-east-2 use2-az1 | 200 | 99% | 8.9 | 9 (11-20 11:24Z) |
+| us-east-1 use1-az6 | 143 | 93% | 8.5 | 9 (11-22 11:09Z) |
+| us-east-2 use2-az1 | 201 | 99% | 8.9 | 9 (11-22 11:09Z) |
 | us-east-2 use2-az2 | 220 | 99% | 8.9 | 9 (11-20 11:24Z) |
 | us-east-2 use2-az3 | 245 | 97% | 8.8 | 9 (11-21 09:39Z) |
 | us-west-2 usw2-az1 | 105 | 98% | 8.9 | 9 (11-17 13:10Z) |
@@ -158,43 +158,43 @@ us-west-2        999994943349334341942399399911599545353244449956
 
 | region | az | product | $/h | sampled |
 |---|---|---|---|---|
-| ap-northeast-1 | ap-northeast-1a | Linux/UNIX | 0.706800 | 2026-11-22T03:03:37Z |
-| ap-northeast-1 | ap-northeast-1a | Windows | 0.840600 | 2026-11-22T03:03:37Z |
-| ap-northeast-1 | ap-northeast-1c | Linux/UNIX | 0.725900 | 2026-11-22T03:03:37Z |
-| ap-northeast-1 | ap-northeast-1c | Windows | 0.840600 | 2026-11-22T03:03:37Z |
-| ap-northeast-2 | ap-northeast-2a | Linux/UNIX | 0.599900 | 2026-11-22T03:03:37Z |
-| ap-northeast-2 | ap-northeast-2a | Windows | 0.740700 | 2026-11-22T03:03:37Z |
-| ap-northeast-2 | ap-northeast-2c | Linux/UNIX | 0.620300 | 2026-11-22T03:03:37Z |
-| ap-northeast-2 | ap-northeast-2c | Windows | 0.740700 | 2026-11-22T03:03:37Z |
-| ap-northeast-2 | ap-northeast-2d | Linux/UNIX | 0.596300 | 2026-11-22T03:03:37Z |
-| ap-northeast-2 | ap-northeast-2d | Windows | 0.740700 | 2026-11-22T03:03:37Z |
-| ap-south-1 | ap-south-1a | Linux/UNIX | 0.683000 | 2026-11-22T03:03:37Z |
-| ap-south-1 | ap-south-1a | Windows | 0.422200 | 2026-11-22T03:03:37Z |
-| ap-south-1 | ap-south-1b | Linux/UNIX | 0.771100 | 2026-11-22T03:03:37Z |
-| ap-south-1 | ap-south-1b | Windows | 0.424700 | 2026-11-22T03:03:37Z |
-| ap-southeast-2 | ap-southeast-2a | Linux/UNIX | 0.626600 | 2026-11-22T03:03:37Z |
-| ap-southeast-2 | ap-southeast-2a | Windows | 0.534300 | 2026-11-22T03:03:37Z |
-| ap-southeast-2 | ap-southeast-2c | Linux/UNIX | 0.510100 | 2026-11-22T03:03:37Z |
-| ap-southeast-2 | ap-southeast-2c | Windows | 0.550200 | 2026-11-22T03:03:37Z |
-| us-east-1 | us-east-1a | Linux/UNIX | 0.860900 | 2026-11-22T03:03:37Z |
-| us-east-1 | us-east-1a | Windows | 0.284600 | 2026-11-22T03:03:37Z |
-| us-east-1 | us-east-1b | Linux/UNIX | 0.893100 | 2026-11-22T03:03:37Z |
-| us-east-1 | us-east-1b | Windows | 0.307100 | 2026-11-22T03:03:37Z |
-| us-east-1 | us-east-1c | Linux/UNIX | 0.737400 | 2026-11-22T03:03:37Z |
-| us-east-1 | us-east-1c | Windows | 0.284600 | 2026-11-22T03:03:37Z |
-| us-east-1 | us-east-1d | Linux/UNIX | 0.797000 | 2026-11-22T03:03:37Z |
-| us-east-1 | us-east-1d | Windows | 0.284600 | 2026-11-22T03:03:37Z |
-| us-east-1 | us-east-1f | Linux/UNIX | 0.696400 | 2026-11-22T03:03:37Z |
-| us-east-1 | us-east-1f | Windows | 0.284600 | 2026-11-22T03:03:37Z |
-| us-east-2 | us-east-2a | Linux/UNIX | 0.530600 | 2026-11-22T03:03:37Z |
-| us-east-2 | us-east-2a | Windows | 0.636700 | 2026-11-22T03:03:37Z |
-| us-east-2 | us-east-2b | Linux/UNIX | 0.536300 | 2026-11-22T03:03:37Z |
-| us-east-2 | us-east-2b | Windows | 0.636700 | 2026-11-22T03:03:37Z |
-| us-east-2 | us-east-2c | Linux/UNIX | 0.527900 | 2026-11-22T03:03:37Z |
-| us-east-2 | us-east-2c | Windows | 0.636700 | 2026-11-22T03:03:37Z |
-| us-west-2 | us-west-2a | Linux/UNIX | 0.598400 | 2026-11-22T03:03:37Z |
-| us-west-2 | us-west-2a | Windows | 0.306800 | 2026-11-22T03:03:37Z |
-| us-west-2 | us-west-2b | Linux/UNIX | 0.746900 | 2026-11-22T03:03:37Z |
-| us-west-2 | us-west-2b | Windows | 0.284600 | 2026-11-22T03:03:37Z |
-| us-west-2 | us-west-2c | Linux/UNIX | 0.536600 | 2026-11-22T03:03:37Z |
-| us-west-2 | us-west-2c | Windows | 0.284600 | 2026-11-22T03:03:37Z |
+| ap-northeast-1 | ap-northeast-1a | Linux/UNIX | 0.706700 | 2026-11-22T11:09:29Z |
+| ap-northeast-1 | ap-northeast-1a | Windows | 0.840600 | 2026-11-22T11:09:29Z |
+| ap-northeast-1 | ap-northeast-1c | Linux/UNIX | 0.723600 | 2026-11-22T11:09:29Z |
+| ap-northeast-1 | ap-northeast-1c | Windows | 0.840600 | 2026-11-22T11:09:29Z |
+| ap-northeast-2 | ap-northeast-2a | Linux/UNIX | 0.598800 | 2026-11-22T11:09:29Z |
+| ap-northeast-2 | ap-northeast-2a | Windows | 0.740700 | 2026-11-22T11:09:29Z |
+| ap-northeast-2 | ap-northeast-2c | Linux/UNIX | 0.617200 | 2026-11-22T11:09:29Z |
+| ap-northeast-2 | ap-northeast-2c | Windows | 0.740700 | 2026-11-22T11:09:29Z |
+| ap-northeast-2 | ap-northeast-2d | Linux/UNIX | 0.593100 | 2026-11-22T11:09:29Z |
+| ap-northeast-2 | ap-northeast-2d | Windows | 0.740700 | 2026-11-22T11:09:29Z |
+| ap-south-1 | ap-south-1a | Linux/UNIX | 0.695800 | 2026-11-22T11:09:29Z |
+| ap-south-1 | ap-south-1a | Windows | 0.420900 | 2026-11-22T11:09:29Z |
+| ap-south-1 | ap-south-1b | Linux/UNIX | 0.772600 | 2026-11-22T11:09:29Z |
+| ap-south-1 | ap-south-1b | Windows | 0.424700 | 2026-11-22T11:09:29Z |
+| ap-southeast-2 | ap-southeast-2a | Linux/UNIX | 0.628200 | 2026-11-22T11:09:29Z |
+| ap-southeast-2 | ap-southeast-2a | Windows | 0.533900 | 2026-11-22T11:09:29Z |
+| ap-southeast-2 | ap-southeast-2c | Linux/UNIX | 0.518000 | 2026-11-22T11:09:29Z |
+| ap-southeast-2 | ap-southeast-2c | Windows | 0.550000 | 2026-11-22T11:09:29Z |
+| us-east-1 | us-east-1a | Linux/UNIX | 0.860000 | 2026-11-22T11:09:29Z |
+| us-east-1 | us-east-1a | Windows | 0.284600 | 2026-11-22T11:09:29Z |
+| us-east-1 | us-east-1b | Linux/UNIX | 0.893100 | 2026-11-22T11:09:29Z |
+| us-east-1 | us-east-1b | Windows | 0.311100 | 2026-11-22T11:09:29Z |
+| us-east-1 | us-east-1c | Linux/UNIX | 0.749700 | 2026-11-22T11:09:29Z |
+| us-east-1 | us-east-1c | Windows | 0.284600 | 2026-11-22T11:09:29Z |
+| us-east-1 | us-east-1d | Linux/UNIX | 0.800800 | 2026-11-22T11:09:29Z |
+| us-east-1 | us-east-1d | Windows | 0.284600 | 2026-11-22T11:09:29Z |
+| us-east-1 | us-east-1f | Linux/UNIX | 0.717700 | 2026-11-22T11:09:29Z |
+| us-east-1 | us-east-1f | Windows | 0.284600 | 2026-11-22T11:09:29Z |
+| us-east-2 | us-east-2a | Linux/UNIX | 0.530600 | 2026-11-22T11:09:29Z |
+| us-east-2 | us-east-2a | Windows | 0.636700 | 2026-11-22T11:09:29Z |
+| us-east-2 | us-east-2b | Linux/UNIX | 0.536300 | 2026-11-22T11:09:29Z |
+| us-east-2 | us-east-2b | Windows | 0.636700 | 2026-11-22T11:09:29Z |
+| us-east-2 | us-east-2c | Linux/UNIX | 0.527400 | 2026-11-22T11:09:29Z |
+| us-east-2 | us-east-2c | Windows | 0.636700 | 2026-11-22T11:09:29Z |
+| us-west-2 | us-west-2a | Linux/UNIX | 0.589800 | 2026-11-22T11:09:29Z |
+| us-west-2 | us-west-2a | Windows | 0.305000 | 2026-11-22T11:09:29Z |
+| us-west-2 | us-west-2b | Linux/UNIX | 0.760500 | 2026-11-22T11:09:29Z |
+| us-west-2 | us-west-2b | Windows | 0.284600 | 2026-11-22T11:09:29Z |
+| us-west-2 | us-west-2c | Linux/UNIX | 0.526900 | 2026-11-22T11:09:29Z |
+| us-west-2 | us-west-2c | Windows | 0.284600 | 2026-11-22T11:09:29Z |
