@@ -31,7 +31,7 @@
 <text x="158" y="45">5</text>
 <rect x="174" y="30" width="21" height="21" fill="rgb(130,190,130)"/>
 <text x="180" y="45">5</text>
-<rect x="196" y="30" width="21" height="21" fill="rgb(151,180,151)"/>
+<rect x="196" y="30" width="21" height="21" fill="rgb(156,177,156)"/>
 <text x="202" y="45">4</text>
 <rect x="218" y="30" width="21" height="21" fill="rgb(139,186,139)"/>
 <text x="224" y="45">5</text>
@@ -80,7 +80,7 @@
 <text x="158" y="67">2</text>
 <rect x="174" y="52" width="21" height="21" fill="rgb(214,148,214)"/>
 <text x="180" y="67">2</text>
-<rect x="196" y="52" width="21" height="21" fill="rgb(205,153,205)"/>
+<rect x="196" y="52" width="21" height="21" fill="rgb(207,152,207)"/>
 <text x="202" y="67">2</text>
 <rect x="218" y="52" width="21" height="21" fill="rgb(214,148,214)"/>
 <text x="224" y="67">2</text>
@@ -129,7 +129,7 @@
 <text x="158" y="89">8</text>
 <rect x="174" y="74" width="21" height="21" fill="rgb(39,236,39)"/>
 <text x="180" y="89">8</text>
-<rect x="196" y="74" width="21" height="21" fill="rgb(84,213,84)"/>
+<rect x="196" y="74" width="21" height="21" fill="rgb(80,215,80)"/>
 <text x="202" y="89">7</text>
 <rect x="218" y="74" width="21" height="21" fill="rgb(107,202,107)"/>
 <text x="224" y="89">6</text>
@@ -178,7 +178,7 @@
 <text x="158" y="111">2</text>
 <rect x="174" y="96" width="21" height="21" fill="rgb(217,147,217)"/>
 <text x="180" y="111">1</text>
-<rect x="196" y="96" width="21" height="21" fill="rgb(219,146,219)"/>
+<rect x="196" y="96" width="21" height="21" fill="rgb(220,145,220)"/>
 <text x="202" y="111">1</text>
 <rect x="218" y="96" width="21" height="21" fill="rgb(214,148,214)"/>
 <text x="224" y="111">2</text>
@@ -374,7 +374,7 @@
 <text x="158" y="199">4</text>
 <rect x="174" y="184" width="21" height="21" fill="rgb(188,161,188)"/>
 <text x="180" y="199">3</text>
-<rect x="196" y="184" width="21" height="21" fill="rgb(184,163,184)"/>
+<rect x="196" y="184" width="21" height="21" fill="rgb(187,162,187)"/>
 <text x="202" y="199">3</text>
 <rect x="218" y="184" width="21" height="21" fill="rgb(188,161,188)"/>
 <text x="224" y="199">3</text>
@@ -423,8 +423,8 @@
 <text x="158" y="221">2</text>
 <rect x="174" y="206" width="21" height="21" fill="rgb(200,155,200)"/>
 <text x="180" y="221">2</text>
-<rect x="196" y="206" width="21" height="21" fill="rgb(200,155,200)"/>
-<text x="202" y="221">2</text>
+<rect x="196" y="206" width="21" height="21" fill="rgb(187,162,187)"/>
+<text x="202" y="221">3</text>
 <rect x="218" y="206" width="21" height="21" fill="rgb(203,154,203)"/>
 <text x="224" y="221">2</text>
 <rect x="240" y="206" width="21" height="21" fill="rgb(212,149,212)"/>
